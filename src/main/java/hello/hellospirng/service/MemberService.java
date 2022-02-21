@@ -12,6 +12,7 @@ import hello.hellospirng.repository.MemoryMemberRepository;
 
 @Service
 public class MemberService {
+
 	private final MemberRepository memberRepository;
 
 	@Autowired
